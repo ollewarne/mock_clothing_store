@@ -4,7 +4,6 @@ body {
     margin: 0;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    justify-content: center;
 }
 
 header {
@@ -17,6 +16,7 @@ main {
     grid-row: 2;
     display: grid;
     grid-template-columns: auto 1fr;
+    gap: 2rem;
 }
 
 
@@ -39,5 +39,6 @@ main {
 
 footer {
     grid-row: 3;
+    justify-self: center;
 }
 
