@@ -9,15 +9,36 @@
 </head>
 <body>
     <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </nav>
         <h1>Clothing Store!</h1>
         <p>Welcome to the clothing store!</p>
         <p>This is a small store with only a few articles of clothing of the highest quality.</p>
     </header>
-    <nav>
-    </nav>
+
     <main>
-        <section class="storeFront"></section>
-        <section class="shoppingCart"></section>
+        <section class="storeFront">
+            <article class="storeItem">
+                <img src="./images/cap.png" alt="picture of baseball cap">
+                <p>Price: 200 smeckels</p>
+                <form action="POST">
+                    <input type="number">
+                    <button type="button" id="addItem">+</button>
+                    <button type="button" id="removeItem">-</button>
+                    <input type="submit">
+                </form>
+            </article>
+            <article class="storeItem"></article>
+            <article class="storeItem"></article>
+            <article class="storeItem"></article>
+        </section>
+        <section class="shoppingCart">
+            <ul id="cart">
+            </ul>
+        </section>
     </main>
     <footer>
         <p>&copy; Clothes Store llc inc</p>
