@@ -39,11 +39,35 @@ main {
     grid-column: 1;
 }
 
-.storeItem > img {
+.storeItem {
     width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: teal;
+    border-radius: 1em;
+    padding: 8px;
+    height: 550px;
 }
 
+.storeItem > img {
+    width: 200px;
+    border-radius: 1em;
+}
 
+.storeItem > form {
+    margin-top: auto;
+    margin-bottom: 1em;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 2em;
+}
+
+.buttonGroup button {
+    padding: 5px;
+    flex: 1;
+}
 
 footer {
     grid-row: 3;
