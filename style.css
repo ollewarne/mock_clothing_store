@@ -9,11 +9,33 @@ body {
 
 header {
     grid-row: 1;
+    width: 100vw;
 }
 
 main {
+    width: 100vw;
     grid-row: 2;
+    display: grid;
+    grid-template-columns: auto 1fr;
 }
+
+
+.storeFront {
+    grid-column: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.storeItem > img {
+    width: 200px;
+}
+
+.shoppingCart {
+    grid-row: 1;
+    grid-column: 1;
+}
+
 
 footer {
     grid-row: 3;
