@@ -21,61 +21,53 @@
 
     <main>
         <section class="storeFront">
-            <article class="storeItem">
+            <article class="storeItem" id="capItem">
                 <img src="./images/cap.png" alt="picture of baseball cap">
                 <p>The perfect cap to wear everyday for eternity...</p>
                 <p>Price: 200 smeckels</p>
-                <form action="POST">
                     <label for="amount">How many?</label>
                     <input type="number" name="amount" value="0" />
                     <div class="buttonGroup">
-                        <button type="button" id="addItem">+</button>
-                        <button type="button" id="removeItem">-</button>
+                        <button type="button" class="addItem">+</button>
+                        <button type="button" class="removeItem">-</button>
                     </div>
-                    <button type="submit">Add to cart</button>
-                </form>
+                    <button class="addToCart">Add to cart</button>
             </article>
-            <article class="storeItem">
+            <article class="storeItem" id="greenShirtItem">
                 <img src="./images/green_shirt.png" alt="picture of green shirt">
                 <p>Very comfortable and nice looking shirt!</p>
                 <p>Price: 500 smeckels</p>
-                <form action="POST">
                     <label for="amount">How many?</label>
                     <input type="number" name="amount" value="0" />
                     <div class="buttonGroup">
-                        <button type="button" id="addItem">+</button>
-                        <button type="button" id="removeItem">-</button>
+                        <button type="button" class="addItem">+</button>
+                        <button type="button" class="removeItem">-</button>
                     </div>
-                    <button type="submit">Add to cart</button>
-                </form>
+                    <button class="addToCart">Add to cart</button>
             </article>
-            <article class="storeItem">
+            <article class="storeItem" id="whiteShirtItem">
                 <img src="./images/white_shirt.png" alt="picture of white shirt">
                 <p>Very comfortable and nice looking shirt!</p>
                 <p>Price: 400 smeckels</p>
-                <form action="POST">
                     <label for="amount">How many?</label>
                     <input type="number" name="amount" value="0" />
                     <div class="buttonGroup">
-                        <button type="button" id="addItem">+</button>
-                        <button type="button" id="removeItem">-</button>
+                        <button type="button" class="addItem">+</button>
+                        <button type="button" class="removeItem">-</button>
                     </div>
-                    <button type="submit">Add to cart</button>
-                </form>
+                    <button class="addToCart">Add to cart</button>
             </article>
-            <article class="storeItem">
+            <article class="storeItem" id="pantsItem">
                 <img src="./images/pants.png" alt="picture of a pair of pants">
                 <p>The perfect pants for everyone!</p>
                 <p>Price: 600 smeckels</p>
-                <form action="POST">
-                    <label for="amount">How many?</label>
-                    <input type="number" name="amount" value="0" />
-                    <div class="buttonGroup">
-                        <button type="button" id="addItem">+</button>
-                        <button type="button" id="removeItem">-</button>
-                    </div>
-                    <button type="submit">Add to cart</button>
-                </form>
+                <label for="amount">How many?</label>
+                <input type="number" name="amount" value="0" />
+                <div class="buttonGroup">
+                    <button type="button" class="addItem">+</button>
+                    <button type="button" class="removeItem">-</button>
+                </div>
+                <button class="addToCart">Add to cart</button>
             </article>
         </section>
         <section class="shoppingCart">

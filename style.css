@@ -54,11 +54,6 @@ main {
     border-radius: 1em;
 }
 
-.storeItem > form {
-    margin-top: auto;
-    margin-bottom: 1em;
-}
-
 .buttonGroup {
     display: flex;
     gap: 2em;
